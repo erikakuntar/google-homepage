@@ -13,6 +13,21 @@
   margin: 0 auto;
 }
 
+a:hover {
+  color: #080808;
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 15px;
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+}
+
 .top_bar {
   text-align: right;
 }
@@ -20,13 +35,6 @@
 .search_bar_container {
   padding-top: 10px;
 }
-
-/*.text_to_talk {
-  padding-top: 9px;
-  height: 30px;
-  display: block;
-  margin-left: auto;
-}*/
 
 input#search {
   color: black;
@@ -52,10 +60,14 @@ input {
   margin-right: auto;
 }
 
-img {
-  /*padding-top: 90px;*/
-  /*height: 112px;*/
-  /*display: block;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
+.google_apps {
+  height: 30px;
+}
+
+.google_notifications {
+  height: 30px;
+}
+
+.google_account {
+  height: 30px;
 }
